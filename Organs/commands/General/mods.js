@@ -6,7 +6,7 @@ module.exports={
     usage:`${prefa}mods`,
     desc:"shows mods list",
     category:"General",
-    react:"✅",
+    react:"🎖️",
 
     start:async(client,m,{})=>{
         const mod= owner
