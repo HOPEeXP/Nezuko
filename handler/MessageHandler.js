@@ -110,11 +110,11 @@ module.exports = async (client, m, commands, chatUpdate) => {
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
       var rae = `https://i.ibb.co/c33ZHCx/wallpaperflare-com-wallpaper.jpg`;
-      let txtt = `*${prefix}${cmdName}* is an ⛔ invalid command`;
+      let txtt = `*Don't use such command idiot have you ever seen someone using this command type${prefix}Help*`;
       let buttons = [
         {
           buttonId: `${prefix}help`,
-          buttonText: { displayText: "⚙️ℍ𝕖𝕝𝕡" },
+          buttonText: { displayText: "⚡ Help ⚡" },
           type: 1,
         },
       ];
@@ -122,7 +122,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       let buttonMessage = {
         image: { url: rae },
         caption: `${txtt}`,
-        footer: `*©Eternity-Team*`,
+        footer: `*𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗 𝚆𝚎𝚕𝚕𝚜*`,
         buttons: buttons,
         headerType: 4,
       };
@@ -208,7 +208,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       return client.sendMessage(m.from, buth, { quoted: m });
     }
     if (!isGroup && cmd && !iscreator)
-      return m.reply("*You cant use commands in dm*");
+      return m.reply("*You cant use commands in DM*");
     if (cmd) {
       if (ban.includes(`${m.sender}`))
         return m.reply(`You are banned from using commands ❌`);
