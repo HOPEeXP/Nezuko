@@ -18,7 +18,7 @@ await client.sendMessage(m.from,{
     contextInfo:{
         externalAdReply:{
             title:audio.meta.title,
-            body: "*©Eternity-Team*",
+            body: "*𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗-𝚆𝚎𝚕𝚕𝚜*",
             thumbnail: await fetchBuffer(audio.meta.image),
             mediaType:2,
             mediaUrl:text,
