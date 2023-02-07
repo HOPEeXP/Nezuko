@@ -4,14 +4,14 @@ module.exports = {
     alias: ["sticker","s"],
     desc: "makes sticker from images/videos/gifs",
     category: "Utils",
-    react:"✅",
+    react:"♦️",
 
     start: async(client, m,{pushName,body,quoted,mime,text,args,flags}) => {
        if(!quoted) return await client.sendMessage(m.from,{text:"Reply/tag a image/video"})
        flags.forEach((flag) => (text = text.replace(flag, '')))
  
-       pack = 'ETERNITY'
-       author = ''
+       pack = '♦️ ʜᴇʀᴇ ʏᴏᴜ ɢᴏ ʙʏ:'
+       author = '𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗-𝚆𝚎𝚕𝚕𝚜 ♦️'
         
        
            
