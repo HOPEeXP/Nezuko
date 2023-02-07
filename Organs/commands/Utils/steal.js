@@ -4,18 +4,18 @@ module.exports = {
     alias: ["take"],
     desc: "steals the sticker",
     cool:3,
-    react:"✅",
+    react:"🍂",
 
     category: "Utils",
     start: async(client, m,{pushName,args,mime,quoted}) => {
         if (!quoted) return m.reply(`❌ Could not find any sticker in context`)
         if (q) {
    anu = args.join(' ').split('|')
-   pack = anu[0] !== '' ? anu[0] : 'ETERNITY'
-   author = anu[1] !== '' ? anu[1] : 'THE BEST IS YET TO BE'
+   pack = anu[0] !== '' ? anu[0] : '🍂 ʜᴇʀᴇ ʏᴏᴜ ɢᴏ ʙʏ:'
+   author = anu[1] !== '' ? anu[1] : '𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗-𝚆𝚎𝚕𝚕𝚜 🍂'
    } else {
-       pack = 'ETERNITY'
-       author = 'THE BEST IS YET TO BE'
+       pack = '🍂 ʜᴇʀᴇ ʏᴏᴜ ɢᴏ ʙʏ:'
+       author = '𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗-𝚆𝚎𝚕𝚕𝚜 🍂'
        }
 if(/webp/.test(mime)) {
 let media = await quoted.download()
