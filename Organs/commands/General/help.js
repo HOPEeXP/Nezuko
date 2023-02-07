@@ -53,21 +53,21 @@ let cm=commands.keys()
 				}
 			}
         if (!nsfw.includes(m.from)) {
-        var emo=["📖","🍁","🍀","🌊","🎵","🎟","♨️","🉐",]
+        var emo=["📚","⚠️","🌟","🎗️","🎵","📍","♨️","🉐",]
         } else {
-        var emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
+        var emo=["📚","⚠️","🌟","🎗️","🎵","🔞","📍","♨️","🉐",]
         } 
-        let txt = `*How's going* ${pushName} I'm *𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗 𝚆𝚎𝚕𝚕𝚜*.
+        let txt = `*How's going ${pushName} I'm 𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗 𝚆𝚎𝚕𝚕𝚜*.
                        
-🧧 *Prefix :* [ ${prefix} ]
+🎋 *Prefix :* [ ${prefix} ]
                        
-📝 Here's the *Commands* listed below :\n\n`
+⛩️ Here's the *Commands* listed below :\n\n`
         const keys = Object.keys(category);
         for (const key of keys) {
             txt += `*${key.toUpperCase()} ${emo[keys.indexOf(key)]} :-*  \n\`\`\`${category[key]
                 .map((cmd) => cmd.name).join(", ")}\`\`\`\n\n`
         }
-        txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n`; 
+        txt += `♨️ Type *${prefix}help* <Command-Name> or <Command-Name> --info\n`; 
     const eternity = await wall.getAnimeWall5("Nezuko")
     const eternitylogo = eternity[Math.floor(Math.random() * eternity.length)]
     const Button = [
