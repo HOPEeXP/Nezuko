@@ -109,7 +109,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
         : [];
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
-      var rae = `https://i.ibb.co/c33ZHCx/wallpaperflare-com-wallpaper.jpg`;
+      var rae = `https://i.pinimg.com/236x/2e/22/dd/2e22dd2601b9ab6d851f29e0caea7139.jpg`;
       let txtt = `*Don't use such command idiot have you ever seen someone using this command type${prefix}Help*`;
       let buttons = [
         {
