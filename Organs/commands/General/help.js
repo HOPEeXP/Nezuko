@@ -71,8 +71,8 @@ let cm=commands.keys()
     const eternity = await wall.getAnimeWall5("Nezuko")
     const eternitylogo = eternity[Math.floor(Math.random() * eternity.length)]
     const Button = [
-        {buttonId: `${prefix}nezuko`, buttonText: {displayText: '🌟 Us',}, type: 2},
-        {buttonId: `${prefix}support`, buttonText: {displayText: '🎐 Support'}, type: 1},
+        {buttonId: `${prefix}nezuko`, buttonText: {displayText: '𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗',}, type: 2},
+        {buttonId: `${prefix}support`, buttonText: {displayText: '𝚆𝚎𝚕𝚕𝚜'}, type: 1},
     ]
     let hbutto = {
         image: {url: eternitylogo.image},
